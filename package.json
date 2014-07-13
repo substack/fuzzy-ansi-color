@@ -1,0 +1,34 @@
+{
+  "name": "fuzzy-ansi-color",
+  "version": "1.0.0",
+  "description": "compute ansi color modes fuzzily with strings",
+  "main": "index.js",
+  "dependencies": {
+    "colornames": "~0.0.2",
+    "isarray": "~0.0.1",
+    "x256": "~0.0.1"
+  },
+  "devDependencies": {
+    "tape": "^2.13.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/fuzzy-ansi-color.git"
+  },
+  "homepage": "https://github.com/substack/fuzzy-ansi-color",
+  "keywords": [
+    "ansi",
+    "color",
+    "terminal",
+    "mode"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
